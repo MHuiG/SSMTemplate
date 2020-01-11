@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class IndexController {
     @Autowired
-    private IndexService MySQLService;
+    private IndexService Service;
 
 
     @RequestMapping(value = "/getService", produces = "application/json;charset=UTF-8")
